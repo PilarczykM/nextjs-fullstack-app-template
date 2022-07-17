@@ -6,11 +6,17 @@
   "private": true,
   "license": "MIT",
   "homepage": "https://github.com/PilarczykM/nextjs-fullstack-app-template",
+  "engines": {
+    "node": ">=14.0.0",
+    "yarn": ">=1.22.0",
+    "npm": "please-use-yarn"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prettier": "prettier --write ."
   },
   "dependencies": {
     "next": "12.2.2",
