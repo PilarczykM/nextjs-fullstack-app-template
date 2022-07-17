@@ -1,7 +1,11 @@
 {
   "name": "nextjs-fullstack-app-template",
+  "author": "Marcin Pilarczyk",
+  "description": "The template for creating a production-ready fullstack Next.js application",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
+  "homepage": "https://github.com/PilarczykM/nextjs-fullstack-app-template",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
